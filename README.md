@@ -48,12 +48,12 @@ Here is a list of all the models you can use:
 
 | Keyword                                	| Model description                                           	|
 |---------------------------------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| general_bert                                	| General Domain BERT model pre-trained from scratch on English Wikipedia and OpenWebText. This model uses the same vocabulary as bert-base-uncased.                                           	|
-| medical_bert                                	| Medical Domain BERT initialized with *general_bert* then further pre-trained on MIMIC-III and PubMed abstracts. This model uses the same vocabulary as bert-base-uncased.                    	|
-| medical_bert_from_scratch                   	| Medical Domain BERT pre-trained from scratch on MIMIC-III and PubMed abstracts. This model uses an uncased medical wordpiece vocabulary.                                                     	|
-| medical_bert_from_scratch__longer           	| Medical Domain BERT initialized with *medical_bert_from_scratch* then further pre-trained on MIMIC-III and PubMed abstracts. This model uses an uncased medical wordpiece vocabulary.        	|
-| both_domains_bert                           	| Mixed Domain BERT pre-trained from scratch on both the English Wikipedia and OpenWebText as well as MIMIC-III and PubMed abstracts. This model uses an uncased medical wordpiece vocabulary. 	|
-| both_domains_bert__then_medical             	| Medical Domain BERT initialized with *both_domains_bert* then further pre-trained on MIMIC-III and PubMed abstracts. This model uses an uncased medical wordpiece vocabulary.                	|
+| [general_bert](https://drive.google.com/open?id=1fwgKG2BziBZr7aQMK58zkbpI0OxWRsof)                                	| General Domain BERT model pre-trained from scratch on English Wikipedia and OpenWebText. This model uses the same vocabulary as bert-base-uncased.                                           	|
+| [medical_bert](https://drive.google.com/open?id=1GmnXJFntcEfrRY4pVZpJpg7FH62m47HS)                                	| Medical Domain BERT initialized with *general_bert* then further pre-trained on MIMIC-III and PubMed abstracts. This model uses the same vocabulary as bert-base-uncased.                    	|
+| [medical_bert_from_scratch](https://drive.google.com/open?id=19xcDAonSKziyzOguU0XqlDHAW04MiZHK)                   	| Medical Domain BERT pre-trained from scratch on MIMIC-III and PubMed abstracts. This model uses an uncased medical wordpiece vocabulary.                                                     	|
+| [medical_bert_from_scratch__longer](https://drive.google.com/open?id=1rLktcJkkLagEC0hEQbfGVWabLc01LqV9)           	| Medical Domain BERT initialized with *medical_bert_from_scratch* then further pre-trained on MIMIC-III and PubMed abstracts. This model uses an uncased medical wordpiece vocabulary.        	|
+| [both_domains_bert](https://drive.google.com/open?id=1Krjig83UEnOWC2_2KM6Cs46iB10aiOlx)                           	| Mixed Domain BERT pre-trained from scratch on both the English Wikipedia and OpenWebText as well as MIMIC-III and PubMed abstracts. This model uses an uncased medical wordpiece vocabulary. 	|
+| [both_domains_bert__then_medical](https://drive.google.com/open?id=1nuwwA6c3RFEC8SflTadLz8PSHSSIr5bq)             	| Medical Domain BERT initialized with *both_domains_bert* then further pre-trained on MIMIC-III and PubMed abstracts. This model uses an uncased medical wordpiece vocabulary.                	|
 
 ## Using GPUs
 
