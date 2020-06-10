@@ -46,7 +46,7 @@ This will download a few models and run some quick experiments. (requires ~2.4Gb
 
 You can adapt the `run_experiments.sh` script to download and use any of the available models.
 
-Here is a list of all the models you can use:
+Here is a list of all the models you can use. All models follow the same *architecture* as [BERT(base)](https://github.com/google-research/bert#pre-trained-models):
 
 | Keyword                                	| Model description                                           	|
 |---------------------------------------------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
