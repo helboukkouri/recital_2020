@@ -1,6 +1,8 @@
 # Re-train or train from scratch ? Pre-training strategies for BERT in the medical domain
 
-Code for downloading and fine-tuning BERT models from the RECITAL paper "Re-train or train from scratch ? Pre-training strategies for BERT in the medical domain".
+Code for downloading and fine-tuning BERT models from the (French) RECITAL paper "[Re-train or train from scratch ? Pre-training strategies for BERT in the medical domain](https://hal-ensta-paris.archives-ouvertes.fr/LIMSI/hal-02786184v1)".
+
+<img src="https://helboukkouri.github.io/blog/assets/images/recital_results.png" alt="drawing" width="800"/>
 
 The code showcases very basic examples for Sequence Labelling (NER) / Text Classification (Sentiment Analysis). Please change the data in `./data/` and update the `data.py` scripts if you want to adapt this code to your own tasks.
 
@@ -75,11 +77,11 @@ Out: True
 
 If the command returns `False`, then there is probably a mismatch between the installed pytorch version and your machine's configuration. To fix that, run `nvidia-smi` and check your driver version:
 
-<center><img src="img/nvidiasmi.png" alt="drawing" width="550"/></center>
+<img src="img/nvidiasmi.png" alt="drawing" width="550"/>
 
 Then compare this version with the numbers given in the [NVIDIA CUDA Toolkit Release Notes](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html):
 
-<center><img src="img/cudaversions.png" alt="drawing" width="800"/></center>
+<img src="img/cudaversions.png" alt="drawing" width="800"/>
 
 In my case the shown version is `390.116` which corresponds to `CUDA 9.0`. Therefore, it means that I need to install pytorch with the version 9.0 of the cudatoolkit.
 
