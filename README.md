@@ -2,7 +2,7 @@
 
 Code for downloading and fine-tuning BERT models from the (French) RECITAL paper "[Re-train or train from scratch ? Pre-training strategies for BERT in the medical domain](https://hal-ensta-paris.archives-ouvertes.fr/LIMSI/hal-02786184v1)".
 
-<img src="https://helboukkouri.github.io/blog/assets/images/recital_results.png" alt="drawing" width="800"/>
+<img src="img//recital_results.png" alt="drawing" width="800"/>
 
 The code showcases very basic examples for Sequence Labelling (NER) / Text Classification (Sentiment Analysis). Please change the data in `./data/` and update the `data.py` scripts if you want to adapt this code to your own tasks.
 
